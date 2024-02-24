@@ -1,0 +1,215 @@
+[gd_scene load_steps=4 format=3 uid="uid://dadp2j3mo0k5"]
+
+[ext_resource type="Script" path="res://MainGame.gd" id="1_ff26h"]
+[ext_resource type="PackedScene" uid="uid://ddeaiigwhd725" path="res://conveyor.tscn" id="1_ivix0"]
+[ext_resource type="PackedScene" uid="uid://dc4dk2io1ygfq" path="res://Product.tscn" id="2_055mo"]
+
+[node name="MainGame" type="Node2D"]
+script = ExtResource("1_ff26h")
+product_scene = ExtResource("2_055mo")
+
+[node name="ProductGroup" type="Node2D" parent="."]
+
+[node name="ConveyorGroup" type="Node2D" parent="."]
+
+[node name="Conveyor" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+
+[node name="Conveyor2" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 0)
+
+[node name="Conveyor3" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 0)
+
+[node name="Conveyor4" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 0)
+
+[node name="Conveyor5" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 0)
+
+[node name="Conveyor6" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 0)
+
+[node name="Conveyor7" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 0)
+
+[node name="Conveyor8" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 0)
+
+[node name="Conveyor9" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 40)
+
+[node name="Conveyor10" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 40)
+
+[node name="Conveyor11" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 40)
+
+[node name="Conveyor12" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 40)
+
+[node name="Conveyor13" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 40)
+
+[node name="Conveyor14" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 40)
+
+[node name="Conveyor15" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 40)
+
+[node name="Conveyor16" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 40)
+
+[node name="Conveyor17" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 80)
+
+[node name="Conveyor18" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 80)
+
+[node name="Conveyor19" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 80)
+
+[node name="Conveyor20" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 80)
+
+[node name="Conveyor21" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 80)
+
+[node name="Conveyor22" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 80)
+
+[node name="Conveyor23" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 80)
+
+[node name="Conveyor24" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 80)
+
+[node name="Conveyor25" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 120)
+
+[node name="Conveyor26" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 120)
+
+[node name="Conveyor27" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 120)
+
+[node name="Conveyor28" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 120)
+
+[node name="Conveyor29" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 120)
+
+[node name="Conveyor30" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 120)
+
+[node name="Conveyor31" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 120)
+
+[node name="Conveyor32" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 120)
+
+[node name="Conveyor33" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 160)
+
+[node name="Conveyor34" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 160)
+
+[node name="Conveyor35" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 160)
+
+[node name="Conveyor36" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 160)
+
+[node name="Conveyor37" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 160)
+
+[node name="Conveyor38" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 160)
+
+[node name="Conveyor39" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 160)
+
+[node name="Conveyor40" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 160)
+
+[node name="Conveyor41" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 200)
+
+[node name="Conveyor42" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 200)
+
+[node name="Conveyor43" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 200)
+
+[node name="Conveyor44" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 200)
+
+[node name="Conveyor45" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 200)
+
+[node name="Conveyor46" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 200)
+
+[node name="Conveyor47" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 200)
+
+[node name="Conveyor48" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 200)
+
+[node name="Conveyor49" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 240)
+
+[node name="Conveyor50" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 240)
+
+[node name="Conveyor51" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 240)
+
+[node name="Conveyor52" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 240)
+
+[node name="Conveyor53" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 240)
+
+[node name="Conveyor54" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 240)
+
+[node name="Conveyor55" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 240)
+
+[node name="Conveyor56" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 240)
+
+[node name="Conveyor57" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(0, 280)
+
+[node name="Conveyor58" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(40, 280)
+
+[node name="Conveyor59" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(80, 280)
+
+[node name="Conveyor60" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(120, 280)
+
+[node name="Conveyor61" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(160, 280)
+
+[node name="Conveyor62" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(200, 280)
+
+[node name="Conveyor63" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(240, 280)
+
+[node name="Conveyor64" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+position = Vector2(280, 280)
+
+[node name="ProductSpawnTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[node name="SpawnerToggle" type="Button" parent="."]
+offset_left = 440.0
+offset_top = 40.0
+offset_right = 576.0
+offset_bottom = 71.0
+text = "Start/Stop Timer"

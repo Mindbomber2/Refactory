@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc4dk2io1ygfq"]
+
+[ext_resource type="Script" path="res://Product.gd" id="1_dl3vh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0arse"]
+
+[node name="Product" type="Area2D"]
+z_index = 1
+script = ExtResource("1_dl3vh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 1
+position = Vector2(10, 10)
+shape = SubResource("RectangleShape2D_0arse")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = 1
+offset_right = 20.0
+offset_bottom = 20.0
+mouse_filter = 2
+color = Color(0, 0.745098, 0.380392, 1)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
