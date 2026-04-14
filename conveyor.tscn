@@ -1,17 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://ddeaiigwhd725"]
+[gd_scene format=3 uid="uid://ddeaiigwhd725"]
 
-[ext_resource type="Script" path="res://Conveyor.gd" id="1_cb00k"]
+[ext_resource type="Script" uid="uid://brbojm7gox2wg" path="res://Conveyor.gd" id="1_cb00k"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0arse"]
 
-[node name="Conveyor" type="Area2D"]
+[node name="Conveyor" type="Area2D" unique_id=569733972]
 script = ExtResource("1_cb00k")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2009500200]
 position = Vector2(20, 20)
 shape = SubResource("RectangleShape2D_0arse")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=955443698]
 offset_right = 40.0
 offset_bottom = 40.0
 mouse_filter = 2

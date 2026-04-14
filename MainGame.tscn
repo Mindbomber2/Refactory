@@ -1,215 +1,226 @@
-[gd_scene load_steps=4 format=3 uid="uid://dadp2j3mo0k5"]
+[gd_scene format=3 uid="uid://dadp2j3mo0k5"]
 
-[ext_resource type="Script" path="res://MainGame.gd" id="1_ff26h"]
+[ext_resource type="Script" uid="uid://c2yx03qprev5x" path="res://MainGame.gd" id="1_ff26h"]
 [ext_resource type="PackedScene" uid="uid://ddeaiigwhd725" path="res://conveyor.tscn" id="1_ivix0"]
 [ext_resource type="PackedScene" uid="uid://dc4dk2io1ygfq" path="res://Product.tscn" id="2_055mo"]
+[ext_resource type="Texture2D" uid="uid://vv1fo5yrir1p" path="res://malphit.png" id="4_bqqt8"]
 
-[node name="MainGame" type="Node2D"]
+[node name="MainGame" type="Node2D" unique_id=865416862]
 script = ExtResource("1_ff26h")
 product_scene = ExtResource("2_055mo")
 
-[node name="ProductGroup" type="Node2D" parent="."]
+[node name="ProductGroup" type="Node2D" parent="." unique_id=1377193763]
 
-[node name="ConveyorGroup" type="Node2D" parent="."]
+[node name="ConveyorGroup" type="Node2D" parent="." unique_id=354236489]
 
-[node name="Conveyor" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor" parent="ConveyorGroup" unique_id=1941516871 instance=ExtResource("1_ivix0")]
 
-[node name="Conveyor2" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor2" parent="ConveyorGroup" unique_id=2144669472 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 0)
 
-[node name="Conveyor3" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor3" parent="ConveyorGroup" unique_id=1771924689 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 0)
 
-[node name="Conveyor4" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor4" parent="ConveyorGroup" unique_id=1820374350 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 0)
 
-[node name="Conveyor5" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor5" parent="ConveyorGroup" unique_id=878831624 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 0)
 
-[node name="Conveyor6" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor6" parent="ConveyorGroup" unique_id=398592726 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 0)
 
-[node name="Conveyor7" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor7" parent="ConveyorGroup" unique_id=2097338872 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 0)
 
-[node name="Conveyor8" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor8" parent="ConveyorGroup" unique_id=424791873 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 0)
 
-[node name="Conveyor9" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor9" parent="ConveyorGroup" unique_id=1946441235 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 40)
 
-[node name="Conveyor10" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor10" parent="ConveyorGroup" unique_id=1534151537 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 40)
 
-[node name="Conveyor11" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor11" parent="ConveyorGroup" unique_id=1475483304 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 40)
 
-[node name="Conveyor12" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor12" parent="ConveyorGroup" unique_id=2004436974 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 40)
 
-[node name="Conveyor13" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor13" parent="ConveyorGroup" unique_id=2053477739 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 40)
 
-[node name="Conveyor14" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor14" parent="ConveyorGroup" unique_id=137358355 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 40)
 
-[node name="Conveyor15" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor15" parent="ConveyorGroup" unique_id=816777915 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 40)
 
-[node name="Conveyor16" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor16" parent="ConveyorGroup" unique_id=455079313 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 40)
 
-[node name="Conveyor17" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor17" parent="ConveyorGroup" unique_id=939413716 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 80)
 
-[node name="Conveyor18" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor18" parent="ConveyorGroup" unique_id=1982348501 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 80)
 
-[node name="Conveyor19" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor19" parent="ConveyorGroup" unique_id=1313003314 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 80)
 
-[node name="Conveyor20" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor20" parent="ConveyorGroup" unique_id=2130066536 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 80)
 
-[node name="Conveyor21" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor21" parent="ConveyorGroup" unique_id=549384262 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 80)
 
-[node name="Conveyor22" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor22" parent="ConveyorGroup" unique_id=1814449585 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 80)
 
-[node name="Conveyor23" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor23" parent="ConveyorGroup" unique_id=1215765916 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 80)
 
-[node name="Conveyor24" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor24" parent="ConveyorGroup" unique_id=103313549 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 80)
 
-[node name="Conveyor25" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor25" parent="ConveyorGroup" unique_id=1008974467 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 120)
 
-[node name="Conveyor26" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor26" parent="ConveyorGroup" unique_id=1529238021 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 120)
 
-[node name="Conveyor27" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor27" parent="ConveyorGroup" unique_id=1256114513 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 120)
 
-[node name="Conveyor28" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor28" parent="ConveyorGroup" unique_id=1235418679 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 120)
 
-[node name="Conveyor29" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor29" parent="ConveyorGroup" unique_id=1556850103 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 120)
 
-[node name="Conveyor30" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor30" parent="ConveyorGroup" unique_id=1422968592 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 120)
 
-[node name="Conveyor31" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor31" parent="ConveyorGroup" unique_id=107932549 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 120)
 
-[node name="Conveyor32" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor32" parent="ConveyorGroup" unique_id=320414252 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 120)
 
-[node name="Conveyor33" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor33" parent="ConveyorGroup" unique_id=1972428477 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 160)
 
-[node name="Conveyor34" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor34" parent="ConveyorGroup" unique_id=623821118 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 160)
 
-[node name="Conveyor35" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor35" parent="ConveyorGroup" unique_id=145818580 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 160)
 
-[node name="Conveyor36" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor36" parent="ConveyorGroup" unique_id=2010337145 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 160)
 
-[node name="Conveyor37" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor37" parent="ConveyorGroup" unique_id=1056936336 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 160)
 
-[node name="Conveyor38" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor38" parent="ConveyorGroup" unique_id=146228614 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 160)
 
-[node name="Conveyor39" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor39" parent="ConveyorGroup" unique_id=2011927509 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 160)
 
-[node name="Conveyor40" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor40" parent="ConveyorGroup" unique_id=133092091 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 160)
 
-[node name="Conveyor41" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor41" parent="ConveyorGroup" unique_id=152601733 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 200)
 
-[node name="Conveyor42" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor42" parent="ConveyorGroup" unique_id=967641202 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 200)
 
-[node name="Conveyor43" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor43" parent="ConveyorGroup" unique_id=1095714042 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 200)
 
-[node name="Conveyor44" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor44" parent="ConveyorGroup" unique_id=518000235 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 200)
 
-[node name="Conveyor45" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor45" parent="ConveyorGroup" unique_id=891238131 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 200)
 
-[node name="Conveyor46" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor46" parent="ConveyorGroup" unique_id=1365699400 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 200)
 
-[node name="Conveyor47" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor47" parent="ConveyorGroup" unique_id=1321199759 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 200)
 
-[node name="Conveyor48" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor48" parent="ConveyorGroup" unique_id=652912317 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 200)
 
-[node name="Conveyor49" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor49" parent="ConveyorGroup" unique_id=531627669 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 240)
 
-[node name="Conveyor50" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor50" parent="ConveyorGroup" unique_id=1347223035 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 240)
 
-[node name="Conveyor51" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor51" parent="ConveyorGroup" unique_id=116939211 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 240)
 
-[node name="Conveyor52" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor52" parent="ConveyorGroup" unique_id=906144882 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 240)
 
-[node name="Conveyor53" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor53" parent="ConveyorGroup" unique_id=723022675 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 240)
 
-[node name="Conveyor54" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor54" parent="ConveyorGroup" unique_id=1376435307 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 240)
 
-[node name="Conveyor55" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor55" parent="ConveyorGroup" unique_id=1445684707 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 240)
 
-[node name="Conveyor56" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor56" parent="ConveyorGroup" unique_id=1664023884 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 240)
 
-[node name="Conveyor57" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor57" parent="ConveyorGroup" unique_id=521914308 instance=ExtResource("1_ivix0")]
 position = Vector2(0, 280)
 
-[node name="Conveyor58" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor58" parent="ConveyorGroup" unique_id=1111265803 instance=ExtResource("1_ivix0")]
 position = Vector2(40, 280)
 
-[node name="Conveyor59" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor59" parent="ConveyorGroup" unique_id=1867921652 instance=ExtResource("1_ivix0")]
 position = Vector2(80, 280)
 
-[node name="Conveyor60" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor60" parent="ConveyorGroup" unique_id=1058352702 instance=ExtResource("1_ivix0")]
 position = Vector2(120, 280)
 
-[node name="Conveyor61" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor61" parent="ConveyorGroup" unique_id=1801008764 instance=ExtResource("1_ivix0")]
 position = Vector2(160, 280)
 
-[node name="Conveyor62" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor62" parent="ConveyorGroup" unique_id=1297464354 instance=ExtResource("1_ivix0")]
 position = Vector2(200, 280)
 
-[node name="Conveyor63" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor63" parent="ConveyorGroup" unique_id=1933750273 instance=ExtResource("1_ivix0")]
 position = Vector2(240, 280)
 
-[node name="Conveyor64" parent="ConveyorGroup" instance=ExtResource("1_ivix0")]
+[node name="Conveyor64" parent="ConveyorGroup" unique_id=176395052 instance=ExtResource("1_ivix0")]
 position = Vector2(280, 280)
 
-[node name="ProductSpawnTimer" type="Timer" parent="."]
+[node name="ProductSpawnTimer" type="Timer" parent="." unique_id=1707107017]
 wait_time = 2.0
 autostart = true
 
-[node name="SpawnerToggle" type="Button" parent="."]
+[node name="SpawnerToggle" type="Button" parent="." unique_id=1640690446]
 offset_left = 440.0
 offset_top = 40.0
 offset_right = 576.0
 offset_bottom = 71.0
 text = "Start/Stop Timer"
+
+[node name="Background" type="TextureRect" parent="." unique_id=398351456]
+z_index = -1
+offset_right = 1500.0
+offset_bottom = 1500.0
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4_bqqt8")
+stretch_mode = 1
+
+[editable path="ConveyorGroup/Conveyor"]
