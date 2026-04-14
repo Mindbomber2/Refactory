@@ -1,19 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://dc4dk2io1ygfq"]
+[gd_scene format=3 uid="uid://dc4dk2io1ygfq"]
 
-[ext_resource type="Script" path="res://Product.gd" id="1_dl3vh"]
+[ext_resource type="Script" uid="uid://ck1exxfdcn6wh" path="res://Product.gd" id="1_dl3vh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0arse"]
 
-[node name="Product" type="Area2D"]
+[node name="Product" type="Area2D" unique_id=650505239]
 z_index = 1
 script = ExtResource("1_dl3vh")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1948117418]
 z_index = 1
 position = Vector2(10, 10)
 shape = SubResource("RectangleShape2D_0arse")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=524122449]
 z_index = 1
 offset_right = 20.0
 offset_bottom = 20.0

@@ -13,7 +13,7 @@ func _ready():
 	text_rect = TextureRect.new()
 	add_child(text_rect)
 	direction = Vector2.ZERO
-	color_rect.set_color(Color.PURPLE)
+	color_rect.set_color(Color.DIM_GRAY)
 	text_rect.set_visible(true)
 
 
