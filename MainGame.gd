@@ -37,7 +37,7 @@ func spawn_product():
 	if not spawning:
 		return
 	var product: Product = product_scene.instantiate()
-	product.position = Vector2(10,10)
+	product.position = Vector2(22,22)
 	product.product_name = number
 	number +=1
 	product_group.add_child(product)

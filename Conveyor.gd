@@ -63,7 +63,11 @@ func _on_body_entered(body: Node2D):
 	if body is Product:
 		print("Moving Product")
 		print(body.product_name)
-		body.move(state)
+		print(body.position)
+		body.setNewDirection(state)
+		print("tile is:")
+		print(position)
+		print(state)
 	else:
 		print("Unknown Collision")
 
@@ -72,6 +76,10 @@ func _on_area_entered(area: Area2D):
 	if area is Product:
 		print("Moving Product")
 		print(area.product_name)
-		area.move(state)
+		print(area.position)
+		area.setNewDirection(state)
+		print("tile is:")
+		print(position)
+		print(state)
 	else:
 		print("Unknown Collision")

@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://brbojm7gox2wg" path="res://Conveyor.gd" id="1_cb00k"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0arse"]
-size = Vector2(32, 32)
+size = Vector2(44, 44)
 
 [node name="Conveyor" type="Area2D" unique_id=569733972]
 script = ExtResource("1_cb00k")
